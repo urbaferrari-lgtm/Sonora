@@ -1,0 +1,47 @@
+# Node / package manager
+node_modules/
+.npm/
+.pnpm-store/
+package-lock.json
+
+# Environment files
+.env
+.env.*
+!.env.example
+backend/.env
+backend/.env.*
+frontend/.env
+frontend/.env.*
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Build output
+frontend/dist/
+frontend/build/
+backend/dist/
+coverage/
+.vite/
+
+# Local OS/editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+*.swo
+*.tmp
+
+# Uploaded media / local runtime data
+backend/uploads/
+backend/tmp/
+backend/.cache/
+
+# Optional: OS or test artifacts
+*.pid
+*.seed
+*.sqlite
